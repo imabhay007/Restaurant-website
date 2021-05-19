@@ -1,0 +1,139 @@
+body{
+	background-color: #61122f;
+}
+
+#header-nav{
+	background-color: #f6b319;
+	border-radius: 0;
+	border:0;
+
+}
+.navbar-brand a:hover, .navbar-branf a:focus{
+	text-decoration: none;
+}
+#nav_1{
+
+	font-family: 'lora', serif;
+	color:#557c3e;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color:#951C49;
+	text-align: center;
+	font-size: 1.2em;
+}
+#nav-list a:hover{
+	background:#E7E7E7;
+}
+#nav-list a span{
+	font-size: 1.3em;
+}
+
+#phone a{          /* phone number */
+	text-align: right;
+	padding-bottom: 0;
+	text-decoration: none;
+}
+#phone{
+	margin-top:5px;
+}
+#phone div{            /* We deliver */
+	color: #557c3e;
+	text-align: right;
+	padding-right: 15px;
+}
+.navionicon{
+	width: 32px;
+	height: 32px;
+	color: #61122f;
+	margin-right: 5px;
+}
+button{
+	border:1px solid #61122f;
+}
+
+/* HEADER END */
+
+#main-img{
+	margin-top: 150px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	box-shadow: 0 0 50px #3F0C1F;
+	border:2px solid #3F0C1F;
+	padding:0;
+}
+
+/* Homepage Tile */
+
+#menu-tile, #special-tile, #map-tile{
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border:2px solid #3F0C1F;
+	overflow: hidden;
+}
+#menu-tile:hover, #special-tile:hover, #map-tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile{
+	background: url("img/menu-tile.jpg") no-repeat;
+	background-position: center;
+}
+#menu-tile{
+	background: url("img/specials-tile.jpg") no-repeat;
+	background-position: center;
+}
+.tileimg{
+	height: 250px;
+	width: 100%;
+}
+#menu-tile span, #special-tile span, #map-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+
+}
+
+/* FOOTER */
+.footer-section{
+	background-color: #222;
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	border-top:0;
+	color: white;
+}
+.footer-section div.row{
+	margin-bottom: 35px;
+}
+#hours,#address{
+	line-height: 2;
+}
+#hours>span,#address>span{
+	font-size: 1.3em;
+}
+#address p{
+	color: #557c3e;
+	font-size: .8;
+	line-height: 1.8;
+}
+#testimonials{
+	font-style: italic;
+}
+#testimonials p:nth-child(2){
+	margin-top: 25px; 
+}
