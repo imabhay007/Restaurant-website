@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Navigation bar</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ 
+    <!-- Navbar  -->
+    <header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3" id="header-nav">
+      <div class="container">
+        <!--<a class="navbar-brand" href="#">Bakerz Bakery</a>-->
+        <a  class="navbar-brand" href="navbar.html">
+      <img src="img/blacklogo.svg" width="70" height="70" class="d-inline-block align-top" alt="restaurant logo"><span id="nav_1">Bakerz Bakery</span>
+       </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav" id="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="menu-categories.html">
+              	<span><img src="img/cutlery.svg" class="navionicon"></span><br class="d-none d-md-none d-lg-block">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#"><span><img src="img/info.svg" class="navionicon"></span><br class="d-none d-md-none d-lg-block"> About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#"><span><img src="img/award.svg" class="navionicon"></span><br class="d-none d-md-none d-lg-block"> Awards</a>
+            </li>
+
+            <li id="phone" class="d-none d-md-none d-lg-block"><a href="tel:9696689143">
+            	<span>9696689143</span>
+                </a><div>* We Deliver</div>
+            </li>
+            
+          </ul>
+        </div>
+     </div>
+    </nav>
+    </header>
+
+    <div class="container" id="main-content">
+    	<div class="row">
+    		<img src="img/restaurant_main.jpg" class="round img-fluid" id="main-img">
+    	</div>
+
+    	<div class="row" id="home-tiles">
+    		<div class="col-md-4 col-sm-6 col-12"><a href="menu-categories.html"><div id="menu-tile">
+    			<img src="img/menu-tile.jpg" class="tileimg"><span>menu</span></div></a>
+    	    </div>
+    		<div class="col-md-4 col-sm-6 col-12"><a href="single-category.html"><div id="special-tile">
+    			<img src="img/specials-tile.jpg" class="tileimg"><span>specials</span></div></a>
+    	    </div>
+    		<div class="col-md-4 col-sm-12 col-12">
+    			<a href="https://g.page/Robinscakeshop?share" target="_blank">
+    				<div id="map-tile">
+    					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14248.74075448847!2d83.34687749777838!3d26.770366212047616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399145ecad803aef%3A0x9a5c1332dba103c4!2sRobin&#39;s%20cake%20shop!5e0!3m2!1sen!2sin!4v1621362363960!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    					<span>map</span>
+    				</div>
+    			</a>
+    		</div>
+    		
+    	</div>
+    	
+    </div>
+
+    <footer class="footer-section">
+    	<div class="container">
+    		<div class="row">
+    			<section class="col-sm-4" id="hours">
+    				<span>Hours:</span><br>
+    				Sun-Thurs: 11:15am- 8:00pm<br>
+    				Fri: 11:15am-2:30pm <br>
+    				Saturday closed
+    				<hr class="d-block d-sm-none">
+
+    			</section>
+    			<section id="address" class="col-sm-4">
+    				<span>Address:</span><br>
+    				7150 street Road<br>
+    				Golghar, gorakhpur
+    				<p>$delivery area within 3-4 miles, with minimum order of 500rs plus 50rs charges for all delivery.</p>
+    				<hr class="d-block d-sm-none">
+    			</section>
+
+    			<section class="col-sm-4" id="testimonials">
+    				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua!"</p>
+    				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua!"</p>
+    			</section>
+    		</div>
+    		<div class="text-center">&copy;copyright Bakerz bakery 2021</div>
+    	</div>
+    </footer>
+
+
+    
+
+
+
+
+<!-- js -->
+   <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
